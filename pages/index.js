@@ -1,18 +1,18 @@
 import { useState } from 'react'
 
-import * as ga from '../lib/ga'
+// import * as ga from '../lib/ga'
 
 export default function Home() {
   const [query, setQuery] = useState("");
 
-  const search = () => {
-    ga.event({
-      action: "search",
-      params: {
-        search_term: query
-      }
-    })
-  }
+  // const search = () => {
+  //   ga.event({
+  //     action: "search",
+  //     params: {
+  //       search_term: query
+  //     }
+  //   })
+  // }
 
   return (
     <div>
