@@ -42,6 +42,8 @@ import App from "next/app";
 import { init } from "@socialgouv/matomo-next";
 
 const MATOMO_URL = process.env.NEXT_PUBLIC_MATOMO_URL;
+console.log("MATOMO_URL: ", MATOMO_URL);
+
 const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID;
 
 function MyApp({ Component, pageProps }) {
